@@ -133,12 +133,12 @@
             font-weight: 500;
         }
 
-        .btn-primary {
+        .btn:hover {
             background-color: #3498db;
             color: white;
         }
 
-        .btn-secondary {
+        /* .btn-secondary {
             background-color: #ecf0f1;
             color: #333;
-        }
+        } */
