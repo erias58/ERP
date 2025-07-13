@@ -11,9 +11,6 @@ logs/
 backups/
 *.sql
 
-# Features
-features/downloaded/
-*.js
 
 # Reports
 reports/
