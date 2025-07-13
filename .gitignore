@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Backups
+backups/
+*.sql
+
+# Features
+features/downloaded/
+*.js
+
+# Reports
+reports/
+*.pdf
+
+# API Documentation
+api_documentation.pdf
+*.aux
+*.log
+*.out
+*.toc
+
+# Environment variables
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite
