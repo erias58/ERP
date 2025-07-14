@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="/sales-dashboard.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Sales Dashboard</h1>
+    </header>
+
+    <nav class="nav-tabs">
+        <a href="#" class="nav-tab active">Purchase</a>
+        <a href="#" class="nav-tab">Inventory</a>
+        <a href="#" class="nav-tab">Reports</a>
+    </nav>
+    
+<!-- All numbers to be adjusted with what from the DB -->
+    <div class="container">
+        <div class="stats-cards">
+            <div class="card">
+                <h3>Today's Sales</h3>
+                <p>$4,250</p>
+            </div>
+            <div class="card">
+                <h3>Items Sold</h3>
+                <p>142</p>
+            </div>
+            <div class="card">
+                <h3>New Orders</h3>
+                <p>28</p>
+            </div>
+        </div>
+        <div class="recent-sales">
+            <h2>Recent Transactions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2023-10-15</td>
+                        <td>Wireless Headphones</td>
+                        <td>2</td>
+                        <td>$199.98</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>2023-10-15</td>
+                        <td>Smart Watch</td>
+                        <td>1</td>
+                        <td>$249.99</td>
+                        <td>Shipped</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="footer-actions">
+            <input type="text" class="search-bar" placeholder="Search transactions...">
+            <div>
+                <button class="btn btn-secondary">Export Report</button>
+                <button class="btn btn-primary">New Sale</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
